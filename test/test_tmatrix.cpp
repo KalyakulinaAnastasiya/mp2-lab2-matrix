@@ -2,7 +2,7 @@
 
 #include <gtest.h>
 
-TEST(TMatrix, can_create_matrix_with_positive_length)
+TEST(TMatrix, can_create_matrix_with_positive_length)           //тест
 {
   ASSERT_NO_THROW(TMatrix<int> m(5));
 }
