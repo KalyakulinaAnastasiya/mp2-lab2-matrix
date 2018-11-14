@@ -1,1 +1,7 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(65,5): error MSB8020: Не удается найти средства сборки для Visual Studio 2010 (набор инструментов платформы = "v100"). Чтобы выполнить сборку с использованием средств сборки v100 установите средства сборки Visual Studio 2010.  Кроме того, можно выполнить обновление до текущей версии средств Visual Studio, перейдя в меню "Проект" или щелкнув решение правой кнопкой мыши и выбрав "Обновить решение...".
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (gtest.vcxproj, sample_utmatrix.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+cl : командная строка warning D9028: сбой минимальной повторной сборки, возврат к обычной сборке
+  test_tmatrix.cpp
+c:\anastasia\mp2-lab2-matrix\test\test_tmatrix.cpp : fatal error C1041: невозможно открыть базу данных программы C:\Anastasia\mp2-lab2-matrix\sln\vc10\Debug\vc141.pdb; если несколько файлов CL.EXE осуществляют запись в один и тот же PDB-файл, воспользуйтесь /FS
+  test_tvector.cpp
+c:\anastasia\mp2-lab2-matrix\test\test_tvector.cpp : fatal error C1041: невозможно открыть базу данных программы C:\Anastasia\mp2-lab2-matrix\sln\vc10\Debug\vc141.pdb; если несколько файлов CL.EXE осуществляют запись в один и тот же PDB-файл, воспользуйтесь /FS
+  Создание кода...
