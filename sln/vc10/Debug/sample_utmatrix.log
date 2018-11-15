@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (gtest.vcxproj, test_utmatrix.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  sample_matrix.cpp
+c:\anastasia\mp2-lab2-matrix\include\utmatrix.h(64): warning C5037: "TVector<ValType>::TVector": внешнее определение члена шаблона класса не может иметь аргументы по умолчанию
+  sample_utmatrix.vcxproj -> C:\Anastasia\mp2-lab2-matrix\sln\vc10\Debug\sample_utmatrix.exe
